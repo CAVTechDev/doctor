@@ -175,40 +175,38 @@ class HomePatient extends StatelessWidget {
               //horizontal list view , categories of doctors
               Container(
                 height: 60,
-                child: Expanded(
-                  child: ListView(
-                    scrollDirection: Axis.horizontal,
-                    children: [
-                      CategoryCard(
-                        iconImagePath: "icons/gynecologist.png",
-                        categoryName: "Gynecologist",
-                      ),
-                      CategoryCard(
-                        iconImagePath: "icons/therapist.png",
-                        categoryName: "Therapist",
-                      ),
-                      CategoryCard(
-                        iconImagePath: "icons/dentist.png",
-                        categoryName: "Dentist",
-                      ),
-                      CategoryCard(
-                        iconImagePath: "icons/surgeon.png",
-                        categoryName: "Surgeon",
-                      ),
-                      CategoryCard(
-                        iconImagePath: "icons/dermatologist.png",
-                        categoryName: "Dermatologist",
-                      ),
-                      CategoryCard(
-                        iconImagePath: "icons/optometrist.png",
-                        categoryName: "Optometrist",
-                      ),
-                      CategoryCard(
-                        iconImagePath: "icons/medical.png",
-                        categoryName: "ENT",
-                      ),
-                    ],
-                  ),
+                child: ListView(
+                  scrollDirection: Axis.horizontal,
+                  children: [
+                    CategoryCard(
+                      iconImagePath: "icons/gynecologist.png",
+                      categoryName: "Gynecologist",
+                    ),
+                    CategoryCard(
+                      iconImagePath: "icons/therapist.png",
+                      categoryName: "Therapist",
+                    ),
+                    CategoryCard(
+                      iconImagePath: "icons/dentist.png",
+                      categoryName: "Dentist",
+                    ),
+                    CategoryCard(
+                      iconImagePath: "icons/surgeon.png",
+                      categoryName: "Surgeon",
+                    ),
+                    CategoryCard(
+                      iconImagePath: "icons/dermatologist.png",
+                      categoryName: "Dermatologist",
+                    ),
+                    CategoryCard(
+                      iconImagePath: "icons/optometrist.png",
+                      categoryName: "Optometrist",
+                    ),
+                    CategoryCard(
+                      iconImagePath: "icons/medical.png",
+                      categoryName: "ENT",
+                    ),
+                  ],
                 ),
               ),
 
